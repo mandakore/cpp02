@@ -1,11 +1,11 @@
 #include "Fixed.hpp"
 
 Fixed::Fixed() : _value(0) {
-	std::cout << "Default constructor called" << std::endl;
+	std::cout << GREEN << "Default constructor called" << RESET <<  std::endl;
 }
 
 Fixed::Fixed(const Fixed& other) {
-	std::cout << "Copy constructor called" << std::endl;
+	std::cout << GREEN << "Copy constructor called" <<  RESET << std::endl;
 	*this = other;
 }
 

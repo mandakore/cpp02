@@ -1,7 +1,10 @@
 #ifndef FIXED_HPP
-#define FIXED_HPP
+# define FIXED_HPP
 
-#include <iostream>
+# include <iostream>
+
+# define GREEN "\033[32m"
+# define RESET "\033[0m"
 
 class Fixed {
 private:
